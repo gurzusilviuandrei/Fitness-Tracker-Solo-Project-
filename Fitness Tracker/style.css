@@ -1,0 +1,150 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* Dark Mode Function */
+#darkMode{
+ height: auto;
+    width: 50px ;
+    margin-bottom: 8px;
+    vertical-align: middle;
+}
+.dark-mode-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+    
+}
+
+.darkmode-background{
+    background-color: #080808;
+}
+
+#darkMode:hover{
+    opacity: 50%;
+}
+
+
+
+h1{
+   margin-top: 30px;
+}
+
+/* Workout */
+#workoutForm{
+    width: 85%;
+    min-height:500px;
+    height: auto;
+    margin-inline: auto;
+    background-color: rgb(37, 48, 216);
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 2px #080808;
+} 
+
+.workout-input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+#workout{
+    padding-top:15px;
+    min-height: 5px;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    margin-inline: auto;
+    align-items: center;
+    gap: 10px;
+}
+
+/* add Workout Btn */
+#addWorkout{
+    padding: 15px 10px;
+    background-color: blue ;
+    box-shadow: 0px 0px 2px 2px #080808;
+    border: none;
+    color:whitesmoke;
+    border-radius: 5px;
+}
+
+#addWorkout:hover{
+background-color: rgb(153, 153, 212) ;
+
+}
+
+#workout,
+#duration {
+    padding: 10px 15px;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+
+
+/* TO BE WORKED ON IT*/
+#workouts{
+     min-width: 40%;
+    height: 40px;
+    max-height: 40px;
+    background-color: rgb(150, 150, 236);
+    border-radius: 5px;
+    justify-content: start;
+    box-shadow: 0px 0px 2px 2px #080808;
+    display: flex   ;
+     align-items: center;
+}
+.workout-item{
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b39ddb; /* your purple */
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+
+/* Duration */
+.duration-input-container {
+    display: flex   ;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 5px;
+    gap: 12px;
+   margin-top: 20px ;
+}
+
+#duration{
+    padding-top:15px;
+    min-height: 5px;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: grid;
+    margin-inline: auto;
+    align-items:center;
+
+}
+
+.delete-btn{
+    padding: 10px;
+    background-color: red;
+    border: none;
+    
+}
+.delete-btn:hover{
+    background-color: rgb(240, 81, 81);
+    transition: 5ms;
+    
+}

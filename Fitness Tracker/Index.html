@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer module></script>
+    <title>Fitness Tracker
+    </title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+    <section>
+        <section class="dark-mode-section">
+        <form id="workoutForm">
+    <div class="dark-mode-toggle">
+        <label for="darkMode">Dark Mode:</label>
+        <img src="moon.png" alt="Moon Icon" id="darkMode">
+    </div>
+   
+    
+    <h1>Add Workout</h1>
+
+    <div class="workout-input-container">
+        <label for="workout">Workout Type:</label>
+        <input type="text" id="workout" name="workout" required>
+    </div>
+
+    <div class="duration-input-container">
+        <label for="duration">Duration (minutes):</label>
+        <input type="number" id="duration" name="duration" min="1" max="300" required>
+        <button id="addWorkout">Add Workout</button>
+    </div>
+
+        
+        <h2>Workout Log</h2>
+        <div id="workout-List">
+           
+          <!-- Workout items will be displayed here -->
+        </div>
+     
+    </div>
+    
+</section>
+    </form>
+     </section>
+     </main>
+</body>
+</html>
+
+
+   
